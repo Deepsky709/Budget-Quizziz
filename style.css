@@ -4,6 +4,7 @@
     justify-content: center;
     flex-wrap: wrap;
     background-color: #4B0082;
+    height: 800px;
 }
 
 #mid{
@@ -25,6 +26,26 @@
     margin-bottom: 100px;
 }
 
+#title2{
+    font-size: 80px;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+#non-title{
+    font-size: 50px;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: -90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
 #row{
     flex-direction: row;
 }
@@ -33,6 +54,61 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
+}
+
+#top{
+    display: flex;
+    justify-content: left;
+    width: 1000px;
+    height: 100px;
+    margin-top: -200px;
+    margin-left: 0px;
+    margin-right: auto;
+    text-align: left;
+    background-color: azure;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+#questions{
+    border-radius: 10px;
+    background-color: #8A2BE2;
+    margin-right: 75px;
+    margin-left: 75px;
+    margin-top: 50px;
+    height: auto;
+    flex-direction: column;
+}
+
+#bar{
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: row;
+    width: 750px;
+    height: 300px;
+    background-color: #4B0082;
+}
+
+#text{
+    font-size: 50px;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#big-text{
+    font-size: 70px;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 .button{
@@ -63,3 +139,15 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.title2c{
+    font-size: 80px;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+
